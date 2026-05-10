@@ -33,8 +33,8 @@ patches:
     keywords: ["no-ipv6"]
 
   # 3. 排除不需要的本地分流 (慎用)
-  # filter_local:
-  #   keywords: ["reject"]
+  filter_local:
+     keywords: ["github"]
 
 # ------------------------------------------------------------------------------
 # [通用] 全局设置 (General)
@@ -117,6 +117,10 @@ filter_remote:
     source: "blackmatrix7"
     policy: "hk-node"
     tag: "Binance"
+  - name: "iCloudPrivateRelay"
+    source: "blackmatrix7"
+    policy: "us-node"
+    tag: "iCloudPrivateRelay"
 # ------------------------------------------------------------------------------
 # [修改] 重写 (Rewrite)
 # ------------------------------------------------------------------------------

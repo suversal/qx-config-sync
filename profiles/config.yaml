@@ -117,10 +117,7 @@ filter_remote:
     source: "blackmatrix7"
     policy: "hk-node"
     tag: "Binance"
-  - name: "iCloudPrivateRelay"
-    source: "blackmatrix7"
-    policy: "us-node"
-    tag: "iCloudPrivateRelay"
+
 # ------------------------------------------------------------------------------
 # [修改] 重写 (Rewrite)
 # ------------------------------------------------------------------------------

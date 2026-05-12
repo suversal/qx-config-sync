@@ -3,6 +3,9 @@ host-suffix,sub.wxhby.com,美国节点
 host-suffix,shenlong.wiki,美国节点
 host-suffix,internal-api-svc.wxhby.com,美国节点
 
+#墨鱼
+host-suffix,ddgksf2013.top,美国节点
+
 # 我的网站域名
 host-suffix,suversal.com,direct
 

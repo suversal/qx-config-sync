@@ -374,6 +374,13 @@ A: Telegram 会通知你构建失败，并且告诉你错误原因。你可以�
     *   [Orz-3](https://github.com/Orz-3/mini) - 极简风格图标
     *   [Koolson](https://github.com/Koolson/Qure) - 彩色风格图标
     *   [ddgksf2013](https://github.com/ddgksf2013) - 应用图标
+ 
+ ## Contact
+
+如果你在使用过程中遇到问题，欢迎联系我：
+
+- Telegram: [@suversal](https://t.me/suversal)
+- Email: `suversia@gmail.com`
 
 感谢所有大佬的开源分享，让我们能用到这么好用的规则和配置！
 

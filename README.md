@@ -83,7 +83,7 @@ QX-Config-Sync 不只是一套“配置同步脚本”。它首先是一份面�
 - **下载配置**：粘贴远程地址，直接下载并导入配置。
 - **导入配置**：从 iPhone 本地选择已经下载的配置文件。
 
-![img_12.png](img_12.png) ![img_13.png](img_13.png)
+![img_12.png](images/img_12.png) ![img_13.png](images/img_13.png)
 
 建议先尝试“下载配置”，使用本项目的本地化配置地址：
 
@@ -103,25 +103,25 @@ https://raw.githubusercontent.com/suversal/qx-config-sync/main/MyQuantumultX_Loc
 
 1. 在 Quantumult X 设置页面进入 `MitM`，点击“生成证书”。
 
-    ![img_14.png](img_14.png)  ![img_16.png](img_16.png)
+    ![img_14.png](images/img_14.png)  ![img_16.png](images/img_16.png)
 
 2. 点击“配置证书”，在弹窗中确认继续。
 
-   ![img_17.png](img_17.png)
+   ![img_17.png](images/img_17.png)
 
 3. 跳转到 Safari 后，点击“允许”下载描述文件。
 
-    ![img_18.png](img_18.png) ![img_19.png](img_19.png)
+    ![img_18.png](images/img_18.png) ![img_19.png](images/img_19.png)
 
 4. Safari 提示描述文件已下载后，返回 iPhone 主屏幕。
 
 5. 打开 iOS“设置”，点击“已下载描述文件”。如果没有看到该入口，可前往“通用”→“VPN 与设备管理”查找。
 
-    ![img_21.png](img_21.png)
+    ![img_21.png](images/img_21.png)
 
 6. 选择 Quantumult X 描述文件并完成安装。系统会要求输入锁屏密码并再次确认。
 
-    ![img_22.png](img_22.png)
+    ![img_22.png](images/img_22.png)
 
 7. 安装完成后，打开“设置”→“通用”→“关于本机”。
 
@@ -129,16 +129,16 @@ https://raw.githubusercontent.com/suversal/qx-config-sync/main/MyQuantumultX_Loc
 
 9. 找到刚安装的 Quantumult X 根证书，开启完全信任。
 
-    ![img_23.png](img_23.png) ![img_24.png](img_24.png)
+    ![img_23.png](images/img_23.png) ![img_24.png](images/img_24.png)
 
 ### 3. 开启重写和 MitM
 
 返回 Quantumult X 设置页面，同时打开“重写”和 `MitM` 开关。
 
-![img_25.png](img_25.png)
+![img_25.png](images/img_25.png)
 
 ### 4. 勾选所需分流和重写
-![img_5.png](img_5.png) ![img_4.png](img_4.png) ![img_3.png](img_3.png)
+![img_5.png](images/img_5.png) ![img_4.png](images/img_4.png) 
 
 最后回到主页面，确认右上角的总开关已经开启，让 Quantumult X 接管网络流量。随后可以重新打开常用 App，检查广告拦截效果；已经缓存的广告可能需要重启 App 或等待缓存更新后才会消失。
 
@@ -216,6 +216,7 @@ qx-config-sync/
 │   └── build.yml              # GitHub Action 自动构建配置
 ├── profiles/
 │   └── config.yaml           # 👈 你的核心配置文件（改这里！）
+├── images/                   # README 使用的 Quantumult X 操作截图
 ├── rules/                     # 存放本地化后的规则文件
 │   ├── filter_remote/        # 本地化后的远程分流规则
 │   └── rewrite_remote/       # 本地化后的远程重写规则

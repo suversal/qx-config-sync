@@ -525,9 +525,7 @@ A: Telegram 会通知你构建失败，并且告诉你错误原因。你可以�
 如果你在使用过程中遇到问题，欢迎联系我：
 
 - Telegram: [@suversal](https://t.me/suversal)
-- Email: `suversia@gmail.com`
-
-感谢所有大佬的开源分享，让我们能用到这么好用的规则和配置！
+- Email: `contact@suversal.com`
 
 ---
 

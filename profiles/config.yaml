@@ -113,6 +113,10 @@ filter_remote:
     source: "blackmatrix7" # 内置源简写
     policy: "us-node"
     tag: "TikTok"
+  - name: "Gemini"
+    source: "blackmatrix7" # 内置源简写
+    policy: "us-node"
+    tag: "Gemini"
   - name: "Binance"
     source: "blackmatrix7"
     policy: "hk-node"

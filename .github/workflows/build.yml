@@ -9,6 +9,7 @@ on:
   push:
     # 只有当以下目录的文件发生变动时才触发，避免改个 README 也跑一遍
     paths:
+      - '.github/workflows/build.yml'
       - 'profiles/**'
       - 'rules/**'
       - 'src/**'
@@ -20,7 +21,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       # 1. 拉取代码
       - uses: actions/checkout@v3
@@ -28,7 +29,7 @@ jobs:
       # 2. 准备 Python 环境
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       # 3. 安装依赖
       - name: Install dependencies
